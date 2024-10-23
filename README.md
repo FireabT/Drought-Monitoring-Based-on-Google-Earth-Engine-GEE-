@@ -1,6 +1,6 @@
 # Drought Monitoring Using Google Earth Engine (GEE)
 
-This project contains a JavaScript code to perform drought monitoring using the Google Earth Engine (GEE) platform. The script calculates vegetation health and temperature indices, including Vegetation Condition Index (VCI), Temperature Condition Index (TCI), and Vegetation Health Index (VHI), to assess drought conditions in the Awash River Basin from 2000 to 2021.
+This project contains a JavaScript code to perform drought monitoring using the Google Earth Engine (GEE) platform in the Awash River Basin, Ethiopia. The script calculates vegetation health and temperature indices, including Vegetation Condition Index (VCI), Temperature Condition Index (TCI), and Vegetation Health Index (VHI), to assess drought conditions in the Awash River Basin from 2000 to 2021.
 
 ## Features
 - Import and filter MODIS NDVI and LST satellite data.
