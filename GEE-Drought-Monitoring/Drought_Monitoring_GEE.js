@@ -287,7 +287,6 @@ vAxis: {title: 'TCI Index'},
 });
 print(TCI_TS_CHART);
 
-
 //VHI Time Series 
 var VHI_TS_CHART = Chart.image.seriesByRegion(VHI, ROI_1, ee.Reducer.mean(),'VHI', 1000, 'system:time_start').setOptions({
 title: 'VHI Time Series (' + startyear.toString() + '-' + endyear.toString() + ')',
