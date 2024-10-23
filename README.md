@@ -1,15 +1,16 @@
-# Drought Monitoring Using Google Earth Engine (GEE)
+# Drought Monitoring
 
-This project contains a JavaScript code to perform drought monitoring using the Google Earth Engine (GEE) platform in the Awash River Basin, Ethiopia. The script calculates vegetation health and temperature indices, including Vegetation Condition Index (VCI), Temperature Condition Index (TCI), and Vegetation Health Index (VHI), to assess drought conditions in the Awash River Basin from 2000 to 2021.
+This repository contains two different approaches for monitoring drought:
 
-## Features
-- Import and filter MODIS NDVI and LST satellite data.
-- Calculate and visualize VCI, TCI, and VHI.
-- Classify and compute areas affected by different drought severity levels.
-- Generate time series charts for VCI, TCI, and VHI.
+1. **Google Earth Engine (GEE) Drought Monitoring**:  
+   This folder contains JavaScript code (`drought_monitoring_gee.js`) that utilizes GEE to compute drought indices such as VCI, TCI, and VHI using MODIS satellite data. The analysis focuses on the Awash River Basin from 2000 to 2021.
 
-## Usage
-1. Load the script in your GEE environment.
-2. Modify the `ROI_1` variable to your region of interest.
-3. Adjust the time period by setting the `startyear`, `endyear`, `startmonth`, and `endmonth` variables.
-4. The script will generate drought indices and export them as TIFF images.
+2. **In-Situ Data Drought Monitoring**:  
+   This folder contains R scripts for analyzing rainfall data and calculating the Standardized Precipitation Index (SPI) using in-situ data from meteorological stations:
+   - `impute_rainfall_data.R`: Script for filling missing rainfall data using the MICE imputation method.
+   - `spi_calculation.R`: Script for calculating the SPI3 drought index based on rainfall data.
+
+## How to Use
+1. Clone the repository or download the scripts.
+2. For GEE analysis, load the JavaScript code into the Google Earth Engine platform.
+3. For in-situ data analysis, run the R scripts in your local R environment.
