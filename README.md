@@ -9,6 +9,8 @@ This repository contains two different approaches for monitoring drought:
    This folder contains R scripts for analyzing rainfall data and calculating the Standardized Precipitation Index (SPI) using in-situ data from meteorological stations:
    - `impute_fill_rainfall_data.R`: Script for filling missing rainfall data using the MICE imputation method.
    - `spi_calculation.R`: Script for calculating the SPI3 drought index based on rainfall data.
+3. **Correlation for Drought Indices**:  
+   This folder contains an R script `plot_correlation_heatmaps.R` to visualize Pearson correlation matrices for VCI, TCI, and VHI using heatmaps. The script uses `ggplot2` and `reshape2` libraries to create visually intuitive correlation heatmaps for each index across different stations.
 
 ## How to Use
 1. Clone the repository or download the scripts.
