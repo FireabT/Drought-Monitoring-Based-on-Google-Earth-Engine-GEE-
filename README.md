@@ -7,7 +7,7 @@ This repository contains two different approaches for monitoring drought:
 
 2. **In-Situ Data Drought Monitoring**:  
    This folder contains R scripts for analyzing rainfall data and calculating the Standardized Precipitation Index (SPI) using in-situ data from meteorological stations:
-   - `impute_rainfall_data.R`: Script for filling missing rainfall data using the MICE imputation method.
+   - `impute_fill_rainfall_data.R`: Script for filling missing rainfall data using the MICE imputation method.
    - `spi_calculation.R`: Script for calculating the SPI3 drought index based on rainfall data.
 
 ## How to Use
